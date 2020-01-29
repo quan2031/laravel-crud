@@ -1,0 +1,13 @@
+.table-action {
+  font-size: 2rem;
+}
+
+.table-action svg:hover {
+  cursor: pointer;
+}
+
+.cover{
+	height: 700px;
+	background: url(../img/laravel.png) top center no-repeat;
+
+}
