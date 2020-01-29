@@ -16,7 +16,7 @@ class EmployeeController extends Controller
      */
     public function index(){
     	Log::debug('An informational message.');
-    	$employees = Employee::orderBy("emp_no", "desc")->take(100)->get();
+    	$employees = Employee::paginate(10);
     	return view("employees.index", ["employees"=>$employees]);
     }
 
