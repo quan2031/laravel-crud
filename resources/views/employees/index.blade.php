@@ -6,7 +6,7 @@
 
 @section("content")	
 <h1 class="page-title ">社員一覧</h1>
-@include("layouts.mgs")
+@include("layouts.msg")
 <a href="{{route("employees.create")}}" class="btn btn-default">作成</a>
 <table id="employees" class="table table-striped table-bordered">
 	<thead>
