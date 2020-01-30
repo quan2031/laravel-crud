@@ -4,6 +4,10 @@
 	社員一覧
 @stop
 
+@section("javascript")
+	<script type="text/javascript" src="{{asset('js/script.js')}}"></script>
+@stop
+
 @section("content")	
 <h1 class="page-title ">社員一覧</h1>
 @include("layouts.msg")
